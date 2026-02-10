@@ -1,14 +1,11 @@
 recipe: default.v1
-assistant_id: meek-dormer
-language: en
+language: hr
+assistant_id: tempered-condensation
 pipeline:
 - name: CompactLLMCommandGenerator
   llm:
-    model_group: openai-gpt-4o
+    model_group: llama_3_1_8b_model
+  flow_retrieval:
+    active: false
 policies:
 - name: FlowPolicy
-- name: IntentlessPolicy
-  llm:
-    model_group: openai-gpt-4o
-  embeddings:
-    model_group: openai-embeddings

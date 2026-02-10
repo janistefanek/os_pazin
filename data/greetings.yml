@@ -1,0 +1,23 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - pozdrav
+    - cao
+    - zdravo
+- intent: ask_student_count
+  examples: |
+    - Koliko ima učenika?
+    - koliko ima učenika
+    - koliko učenika ima u školi
+    - koliko ste ucenika
+    - koliko ucenika
+- intent: ask_grades_count
+  examples: |
+    - Koliko ima razreda?
+    - koliko ima razreda
+    - koliko razreda ima u školi
+    - koliko ste razreda
+    - koliko razreda
+    

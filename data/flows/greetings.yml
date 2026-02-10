@@ -1,0 +1,19 @@
+flows:
+  greet:
+    description: respond to greeting
+    name: greeting
+    steps:
+      - action: utter_greet
+        next: END
+  student_count:
+    description: answer question about number of students
+    name: student count
+    steps:
+      - action: utter_student_count
+        next: END
+  grades_count:
+    description: answer question about number of grades
+    name: grades count
+    steps:
+      - action: utter_grades_count
+        next: END

@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Answer student count
+    steps:
+      - intent: ask_student_count
+      - action: utter_student_count
+
+  - rule: Answer grades count
+    steps:
+      - intent: ask_grades_count
+      - action: utter_grades_count

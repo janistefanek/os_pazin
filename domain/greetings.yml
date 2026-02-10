@@ -1,0 +1,17 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_student_count
+
+actions:
+  - utter_greet
+  - utter_student_count
+
+responses:
+  utter_greet:
+    - text: "Bok ja sam digitalni asistent OS Pazin kako ti mogu pomoći"
+  utter_student_count:
+    - text: "Škola OS Pazin ima 2000 učenika"
+  utter_grades_count:
+    - text: "Škola OS Pazin ima 10 razreda"
