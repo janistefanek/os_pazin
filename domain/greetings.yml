@@ -53,7 +53,7 @@ responses:
     - text: "Bok! Ja sam digitalni asistent OS Pazin. Kako ti mogu pomoći?"
     
   utter_student_count:
-    - text: "Škola OS Pazin ima oko 2000 učenika."
+    - text: "Škola OS Pazin ima oko 1289 učenika."
     
   utter_grades_count:
     - text: "Škola ima 8 razreda redovnog + 6 razreda glazbenog odjela."
@@ -111,3 +111,6 @@ responses:
     
   utter_statute:
     - text: "Statut uređuje organizaciju škole i prava učenika. Dostupan u direkciji i na webu."
+
+  utter_ask_continue_conversation:
+    - text: ""
