@@ -17,3 +17,111 @@ flows:
     steps:
       - action: utter_grades_count
         next: END
+  school_structure:
+    description: answer question about school structure
+    name: school structure
+    steps:
+      - action: utter_school_structure
+        next: END
+  history_program:
+    description: answer question about history program
+    name: history program
+    steps:
+      - action: utter_history_program
+        next: END
+  chemistry_program:
+    description: answer question about chemistry program
+    name: chemistry program
+    steps:
+      - action: utter_chemistry_program
+        next: END
+  physics_program:
+    description: answer question about physics program
+    name: physics program
+    steps:
+      - action: utter_physics_program
+        next: END
+  headmaster:
+    description: answer question about headmaster
+    name: headmaster
+    steps:
+      - action: utter_headmaster
+        next: END
+  shift_leader:
+    description: answer question about shift leader
+    name: shift leader
+    steps:
+      - action: utter_shift_leader
+        next: END
+  lupoglav_leader:
+    description: answer question about Lupoglav leader
+    name: Lupoglav leader
+    steps:
+      - action: utter_lupoglav_leader
+        next: END
+  tinjan_leader:
+    description: answer question about Tinjan leader
+    name: Tinjan leader
+    steps:
+      - action: utter_tinjan_leader
+        next: END
+  total_students:
+    description: answer question about total students
+    name: total students
+    steps:
+      - action: utter_total_students
+        next: END
+  branches_count:
+    description: answer question about branches count
+    name: branches count
+    steps:
+      - action: utter_branches_count
+        next: END
+  main_office:
+    description: answer question about main office
+    name: main office
+    steps:
+      - action: utter_main_office
+        next: END
+  music_department:
+    description: answer question about music department
+    name: music department
+    steps:
+      - action: utter_music_department
+        next: END
+  total_classes:
+    description: answer question about total classes
+    name: total classes
+    steps:
+      - action: utter_total_classes
+        next: END
+  school_day:
+    description: answer question about school day
+    name: school day
+    steps:
+      - action: utter_school_day
+        next: END
+  additional_education:
+    description: answer question about additional education
+    name: additional education
+    steps:
+      - action: utter_additional_education
+        next: END
+  remedial_education:
+    description: answer question about remedial education
+    name: remedial education
+    steps:
+      - action: utter_remedial_education
+        next: END
+  libraries:
+    description: answer question about libraries
+    name: libraries
+    steps:
+      - action: utter_libraries
+        next: END
+  statute:
+    description: answer question about statute
+    name: statute
+    steps:
+      - action: utter_statute
+        next: END

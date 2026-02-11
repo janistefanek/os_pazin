@@ -6,18 +6,186 @@ nlu:
     - pozdrav
     - cao
     - zdravo
+    - bok
+    - hej
+    - ćao
+    - Pozdrav
+    - Cao
+    - Bok
+    - Hej
+    - POZDRAV
+    - CAO
+    - BOK
+    - ciao
+    - hello
+    - hi
+
 - intent: ask_student_count
   examples: |
-    - Koliko ima učenika?
     - koliko ima učenika
-    - koliko učenika ima u školi
-    - koliko ste ucenika
-    - koliko ucenika
+    - koliko učenika ima škola
+    - broj učenika
+    - koliko vas je učenika
+    - koliko ste učenika
+    - učitelja i učenika
+
 - intent: ask_grades_count
   examples: |
-    - Koliko ima razreda?
     - koliko ima razreda
-    - koliko razreda ima u školi
+    - koliko razreda ima škola
+    - broj razreda
     - koliko ste razreda
-    - koliko razreda
-    
+    - koliko razrednih odjela
+    - koji razredi postoje
+
+- intent: ask_school_structure
+  examples: |
+    - kako je organizirana škola
+    - struktura škole
+    - tko vodi školu
+    - tko rukovodi školom
+    - organizacija škole
+    - kako škola radi
+    - tko upravlja školom
+
+- intent: ask_history_program
+  examples: |
+    - što je povijesni program
+    - program povijesti
+    - što se uči na povijesti
+    - ciljevi povijesti
+    - kako se uči povijest
+    - nastava povijesti
+
+- intent: ask_chemistry_program
+  examples: |
+    - kemija program
+    - što se radi na kemiji
+    - ciljevi kemije
+    - kako se uči kemija
+    - eksperimenti kemija
+    - nastava kemije
+
+- intent: ask_physics_program
+  examples: |
+    - fizika program
+    - što se radi na fizici
+    - ciljevi fizike
+    - pokusi fizika
+    - kako se uči fizika
+    - nastava fizike
+
+
+
+- intent: ask_headmaster
+  examples: |
+    - tko je ravnatelj
+    - ime ravnatelja
+    - kako se zove ravnatelj
+    - tko vodi školu
+    - ravnatelj škole
+    - direktor škole
+
+- intent: ask_shift_leader
+  examples: |
+    - tko je voditeljica smjene
+    - voditeljica smjene
+    - tko vodi smjenu
+    - ime voditeljice smjene
+    - voditelj Pazina
+
+- intent: ask_lupoglav_leader
+  examples: |
+    - tko vodi Lupoglav
+    - voditelj Lupoglava
+    - ime voditelja Lupoglava
+    - voditelj područnog kola Lupoglav
+    - Lupoglav škola
+
+- intent: ask_tinjan_leader
+  examples: |
+    - tko vodi Tinjan
+    - voditelj Tinjana
+    - ime voditelja Tinjana
+    - voditelj područnog kola Tinjan
+    - Tinjan škola
+
+- intent: ask_total_students
+  examples: |
+    - koliko ima ukupno učenika
+    - ukupan broj učenika
+    - koliko učenika sveukupno
+    - ukupno učenika
+    - svi učenici
+
+
+
+- intent: ask_branches_count
+  examples: |
+    - koliko područnih kola
+    - koliko ima područnica
+    - gdje su područne škole
+    - broj područnih kola
+    - sve područne škole
+
+- intent: ask_main_office
+  examples: |
+    - gdje je sjedište škole
+    - adresa škole
+    - gdje je glavna škola
+    - lokacija škole
+    - gdje se nalazi škola
+    - glavna adresa
+
+- intent: ask_music_department
+  examples: |
+    - što je glazbeni odjel
+    - gdje je glazbeni odjel
+    - kada je glazbeni odjel
+    - glazbeni program
+    - glazbeni razredi
+
+- intent: ask_total_classes
+  examples: |
+    - koliko razrednih odjela
+    - ukupno odjela
+    - koliko ima odjela
+    - broj razrednih odjela
+    - koliko razreda ukupno
+
+
+- intent: ask_school_day
+  examples: |
+    - dan škole
+    - kada je dan škole
+    - što je dan škole
+    - datum dana škole
+    - proslava škole
+
+- intent: ask_additional_education
+  examples: |
+    - što je dodatna nastava
+    - dodatna nastava za koga
+    - koji predmeti dodatna
+    - kako radi dodatna nastava
+
+- intent: ask_remedial_education
+  examples: |
+    - što je dopunska nastava
+    - dopunska nastava za koga
+    - koji predmeti dopunska
+    - kako radi dopunska nastava
+
+- intent: ask_libraries
+  examples: |
+    - koliko knjižnica
+    - gdje su knjižnice
+    - koje knjižnice ima
+    - knjižnice u školi
+
+- intent: ask_statute
+  examples: |
+    - što je statut
+    - što regulira statut
+    - sadržaj statuta
+    - pravila statuta

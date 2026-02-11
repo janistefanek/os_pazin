@@ -15,3 +15,93 @@ rules:
     steps:
       - intent: ask_grades_count
       - action: utter_grades_count
+
+  - rule: Answer school structure
+    steps:
+      - intent: ask_school_structure
+      - action: utter_school_structure
+
+  - rule: Answer history program
+    steps:
+      - intent: ask_history_program
+      - action: utter_history_program
+
+  - rule: Answer chemistry program
+    steps:
+      - intent: ask_chemistry_program
+      - action: utter_chemistry_program
+
+  - rule: Answer physics program
+    steps:
+      - intent: ask_physics_program
+      - action: utter_physics_program
+
+  - rule: Answer headmaster
+    steps:
+      - intent: ask_headmaster
+      - action: utter_headmaster
+
+  - rule: Answer shift leader
+    steps:
+      - intent: ask_shift_leader
+      - action: utter_shift_leader
+
+  - rule: Answer Lupoglav leader
+    steps:
+      - intent: ask_lupoglav_leader
+      - action: utter_lupoglav_leader
+
+  - rule: Answer Tinjan leader
+    steps:
+      - intent: ask_tinjan_leader
+      - action: utter_tinjan_leader
+
+  - rule: Answer total students
+    steps:
+      - intent: ask_total_students
+      - action: utter_total_students
+
+  - rule: Answer branches count
+    steps:
+      - intent: ask_branches_count
+      - action: utter_branches_count
+
+  - rule: Answer main office
+    steps:
+      - intent: ask_main_office
+      - action: utter_main_office
+
+  - rule: Answer music department
+    steps:
+      - intent: ask_music_department
+      - action: utter_music_department
+
+  - rule: Answer total classes
+    steps:
+      - intent: ask_total_classes
+      - action: utter_total_classes
+
+  - rule: Answer school day
+    steps:
+      - intent: ask_school_day
+      - action: utter_school_day
+
+  - rule: Answer additional education
+    steps:
+      - intent: ask_additional_education
+      - action: utter_additional_education
+
+  - rule: Answer remedial education
+    steps:
+      - intent: ask_remedial_education
+      - action: utter_remedial_education
+
+  - rule: Answer libraries
+    steps:
+      - intent: ask_libraries
+      - action: utter_libraries
+
+  - rule: Answer statute
+    steps:
+      - intent: ask_statute
+      - action: utter_statute
