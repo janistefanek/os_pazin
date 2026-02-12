@@ -3,38 +3,29 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - pozdrav
-    - cao
     - zdravo
-    - bok
     - hej
-    - ćao
     - Pozdrav
-    - Cao
-    - Bok
     - Hej
     - POZDRAV
-    - CAO
-    - BOK
-    - ciao
-    - hello
-    - hi
+    - pozdrav
 
 - intent: ask_student_count
   examples: |
     - koliko ima učenika
     - koliko učenika ima škola
     - broj učenika
-    - koliko vas je učenika
-    - koliko ste učenika
-    - učitelja i učenika
+    - koliko ima ukupno učenika
+    - ukupan broj učenika
+    - koliko učenika sveukupno
+    - ukupno učenika
+    - svi učenici
 
 - intent: ask_grades_count
   examples: |
     - koliko ima razreda
     - koliko razreda ima škola
     - broj razreda
-    - koliko ste razreda
     - koliko razrednih odjela
     - koji razredi postoje
 
@@ -42,11 +33,8 @@ nlu:
   examples: |
     - kako je organizirana škola
     - struktura škole
-    - tko vodi školu
-    - tko rukovodi školom
     - organizacija škole
     - kako škola radi
-    - tko upravlja školom
 
 - intent: ask_history_program
   examples: |
@@ -75,8 +63,6 @@ nlu:
     - kako se uči fizika
     - nastava fizike
 
-
-
 - intent: ask_headmaster
   examples: |
     - tko je ravnatelj
@@ -99,7 +85,7 @@ nlu:
     - tko vodi Lupoglav
     - voditelj Lupoglava
     - ime voditelja Lupoglava
-    - voditelj područnog kola Lupoglav
+    - voditelj područne škole Lupoglav
     - Lupoglav škola
 
 - intent: ask_tinjan_leader
@@ -107,25 +93,15 @@ nlu:
     - tko vodi Tinjan
     - voditelj Tinjana
     - ime voditelja Tinjana
-    - voditelj područnog kola Tinjan
+    - voditelj područne škole Tinjan
     - Tinjan škola
-
-- intent: ask_total_students
-  examples: |
-    - koliko ima ukupno učenika
-    - ukupan broj učenika
-    - koliko učenika sveukupno
-    - ukupno učenika
-    - svi učenici
-
-
 
 - intent: ask_branches_count
   examples: |
-    - koliko područnih kola
+    - koliko područnih škola
     - koliko ima područnica
     - gdje su područne škole
-    - broj područnih kola
+    - broj područnih škola
     - sve područne škole
 
 - intent: ask_main_office
@@ -153,12 +129,10 @@ nlu:
     - broj razrednih odjela
     - koliko razreda ukupno
 
-
 - intent: ask_school_day
   examples: |
     - dan škole
     - kada je dan škole
-    - što je dan škole
     - datum dana škole
     - proslava škole
 

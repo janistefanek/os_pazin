@@ -50,16 +50,16 @@ slots: {}
 
 responses:
   utter_greet:
-    - text: "Bok! Ja sam digitalni asistent OS Pazin. Kako ti mogu pomoći?"
+    - text: "Bok! Ja sam digitalni asistent OS Pazin."
     
   utter_student_count:
-    - text: "Škola OS Pazin ima oko 1289 učenika."
+    - text: "Škola ima 1289 učenika bez glazbenog odjela."
     
   utter_grades_count:
     - text: "Škola ima 8 razreda redovnog + 6 razreda glazbenog odjela."
     
   utter_school_structure:
-    - text: "OS Pazin ima matičnu školu, glazbeni odjel i 8 područnih kola."
+    - text: "OS Pazin ima matičnu školu, glazbeni odjel i 8 područnih škola."
     
   utter_history_program:
     - text: "Povijest je obvezni predmet. Uči svjetsku i hrvatsku povijest, kritičko mišljenje i analizu događaja."
@@ -81,18 +81,15 @@ responses:
     
   utter_tinjan_leader:
     - text: "Područno kolo Tinjan vodi Kristina Ravni, mag. primarnog obrazovanja."
-    
-  utter_total_students:
-    - text: "Škola ima 1289 učenika bez glazbenog odjela."
-    
+        
   utter_total_classes:
     - text: "Ukupno 92 razredna odjela (83 redovnih + 9 glazbenih)."
 
   utter_branches_count:
-    - text: "Škola ima 8 područnih kola: Cerovlje, Gračiće, Sv. Petar, Tinjan, Trvi, Karojba, Motovun, Lupoglav."
+    - text: "Škola ima 8 područnih škola: Cerovlje, Gračiće, Sv. Petar, Tinjan, Trvi, Karojba, Motovun, Lupoglav."
     
   utter_main_office:
-    - text: "Sjedište: Četalice Pazinske gimnazije 9, Pazin."
+    - text: "Sjedište: Šetalište Pazinske gimnazije 9, Pazin."
     
   utter_music_department:
     - text: "Glazbeni odjel ima 9 razreda u Pazinu, poslijepodnevna smjena."
@@ -110,7 +107,4 @@ responses:
     - text: "Škola ima 7 knjižnica: Pazin + područne škole."
     
   utter_statute:
-    - text: "Statut uređuje organizaciju škole i prava učenika. Dostupan u direkciji i na webu."
-
-  utter_ask_continue_conversation:
-    - text: ""
+    - text: "Statut uređuje organizaciju škole i prava učenika. Dostupan je na webu."
