@@ -108,3 +108,12 @@ responses:
     
   utter_statute:
     - text: "Statut uređuje organizaciju škole i prava učenika. Dostupan je na webu."
+
+  utter_ask_continue_conversation:
+    - text: "Želiš li postaviti još neko pitanje?"
+
+  utter_cannot_handle:
+    - text: "Nažalost, to još ne znam."
+
+  utter_clarification:
+    - text: "Možeš li malo pojasniti pitanje?"
