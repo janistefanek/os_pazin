@@ -28,6 +28,8 @@ nlu:
   - intent: lokacija
     examples: |
       - gdje se nalazite?
+      - gdje je škola?
+      - adresa škole?
       - koja je adresa škole?
       - kako doći do vas?
       - u kojoj ulici je OŠ Pazin?
@@ -36,6 +38,9 @@ nlu:
   - intent: info_ravnatelj
     examples: |
       - tko je ravnatelj škole?
+      - ravnatelj?
+      - tko je ravnatelj?
+      - ravnatelj škole
       - ime ravnatelja
       - tko vodi školu?
       - ravnatelj OŠ Pazin
