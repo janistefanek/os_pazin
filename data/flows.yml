@@ -1,0 +1,24 @@
+flows:
+  pozdravni_tok:
+    description: Korisnik pozdravlja bota
+    name: pozdravni_tok
+    steps:
+      - action: utter_pozdrav
+
+  upisi_tok:
+    description: Korisnik traži informacije o upisima
+    name: upisi_tok
+    steps:
+      - action: utter_upisi
+
+  kuhinja_tok:
+    description: Korisnik pita za školsku marendu ili kuhinju
+    name: kuhinja_tok
+    steps:
+      - action: utter_kuhinja
+
+  lokacija_tok:
+    description: Korisnik pita za adresu škole
+    name: lokacija_tok
+    steps:
+      - action: utter_lokacija

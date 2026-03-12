@@ -1,0 +1,21 @@
+{
+  "bok": "pozdrav",
+  "dobar dan": "pozdrav",
+  "pozdrav": "pozdrav",
+  "hej": "pozdrav",
+  "dobro jutro": "pozdrav",
+  "kako upisati dijete?": "info_upisi",
+  "upisi u prvi razred": "info_upisi",
+  "kada su upisi?": "info_upisi",
+  "koja dokumentacija treba za upis?": "info_upisi",
+  "upis prvašića": "info_upisi",
+  "što je danas za marendu?": "info_kuhinja",
+  "školska kuhinja": "info_kuhinja",
+  "koliko košta topli obrok?": "info_kuhinja",
+  "hrana u školi": "info_kuhinja",
+  "jelovnik za ovaj tjedan": "info_kuhinja",
+  "gdje se nalazite?": "lokacija",
+  "koja je adresa škole?": "lokacija",
+  "kako doći do vas?": "lokacija",
+  "u kojoj ulici je OŠ Pazin?": "lokacija"
+}

@@ -1,0 +1,16 @@
+recipe: default.v1
+language: hr
+assistant_id: os-pazin-bot
+
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: KeywordIntentClassifier  # Ovo će raditi bez dodatnih instalacija
+  - name: FallbackClassifier
+    threshold: 0.3
+  - name: NLUCommandAdapter
+
+policies:
+  - name: RulePolicy
+  - name: FlowPolicy

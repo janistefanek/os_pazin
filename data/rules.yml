@@ -1,0 +1,27 @@
+version: "3.1"
+
+rules:
+  - rule: Odgovori na pozdrav
+    steps:
+      - intent: pozdrav
+      - action: utter_pozdrav
+
+  - rule: Informacije o upisima
+    steps:
+      - intent: info_upisi
+      - action: utter_upisi
+
+  - rule: Informacije o kuhinji
+    steps:
+      - intent: info_kuhinja
+      - action: utter_kuhinja
+
+  - rule: Informacije o lokaciji
+    steps:
+      - intent: lokacija
+      - action: utter_lokacija
+
+  - rule: Preusmjeri nepoznato na Llama model
+    steps:
+      - intent: nlu_fallback
+      - action: action_call_llama

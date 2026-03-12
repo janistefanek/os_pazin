@@ -1,0 +1,33 @@
+version: "3.1"
+
+nlu:
+  - intent: pozdrav
+    examples: |
+      - bok
+      - dobar dan
+      - pozdrav
+      - hej
+      - dobro jutro
+  
+  - intent: info_upisi
+    examples: |
+      - kako upisati dijete?
+      - upisi u prvi razred
+      - kada su upisi?
+      - koja dokumentacija treba za upis?
+      - upis prvašića
+  
+  - intent: info_kuhinja
+    examples: |
+      - što je danas za marendu?
+      - školska kuhinja
+      - koliko košta topli obrok?
+      - hrana u školi
+      - jelovnik za ovaj tjedan
+  
+  - intent: lokacija
+    examples: |
+      - gdje se nalazite?
+      - koja je adresa škole?
+      - kako doći do vas?
+      - u kojoj ulici je OŠ Pazin?

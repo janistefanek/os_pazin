@@ -1,0 +1,34 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"lokacija\"}}]": "utter_lokacija",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"lokacija\"}}, {\"prev_action\": {\"action_name\": \"utter_lokacija\"}, \"user\": {\"intent\": \"lokacija\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"info_upisi\"}}]": "utter_upisi",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"info_upisi\"}}, {\"prev_action\": {\"action_name\": \"utter_upisi\"}, \"user\": {\"intent\": \"info_upisi\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"info_kuhinja\"}}]": "utter_kuhinja",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"info_kuhinja\"}}, {\"prev_action\": {\"action_name\": \"utter_kuhinja\"}, \"user\": {\"intent\": \"info_kuhinja\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "action_call_llama",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"action_call_llama\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pozdrav\"}}]": "utter_pozdrav",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pozdrav\"}}, {\"prev_action\": {\"action_name\": \"utter_pozdrav\"}, \"user\": {\"intent\": \"pozdrav\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"lokacija\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pozdrav\"}}, {\"prev_action\": {\"action_name\": \"utter_pozdrav\"}, \"user\": {\"intent\": \"pozdrav\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"action_call_llama\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"lokacija\"}}, {\"prev_action\": {\"action_name\": \"utter_lokacija\"}, \"user\": {\"intent\": \"lokacija\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"info_upisi\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"info_upisi\"}}, {\"prev_action\": {\"action_name\": \"utter_upisi\"}, \"user\": {\"intent\": \"info_upisi\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"info_kuhinja\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pozdrav\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"info_kuhinja\"}}, {\"prev_action\": {\"action_name\": \"utter_kuhinja\"}, \"user\": {\"intent\": \"info_kuhinja\"}}]"
+    ]
+  }
+}

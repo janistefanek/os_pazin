@@ -1,0 +1,21 @@
+version: "3.1"
+
+intents:
+  - pozdrav
+  - info_upisi
+  - info_kuhinja
+  - lokacija
+  - nlu_fallback
+
+responses:
+  utter_pozdrav:
+    - text: "Dobar dan! Ja sam virtualni asistent Osnovne škole Pazin. Kako vam mogu pomoći?"
+  utter_upisi:
+    - text: "Upisi u prvi razred OŠ Pazin obično se provode u proljeće. Potrebna je potvrda školskog liječnika i osnovni dokumenti djeteta."
+  utter_kuhinja:
+    - text: "Školska kuhinja nudi topli obrok svaki dan. Jelovnik se objavljuje na web stranici škole, a cijena ovisi o broju radnih dana u mjesecu."
+  utter_lokacija:
+    - text: "Osnovna škola Pazin nalazi se na adresi Šetalište Pazinske gimnazije 9, Pazin."
+
+actions:
+  - action_call_llama
