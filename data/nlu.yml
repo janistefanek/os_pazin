@@ -31,3 +31,124 @@ nlu:
       - koja je adresa škole?
       - kako doći do vas?
       - u kojoj ulici je OŠ Pazin?
+
+  # NOVI INTENTI - 15 FAQ pitanja
+  - intent: info_ravnatelj
+    examples: |
+      - tko je ravnatelj škole?
+      - ime ravnatelja
+      - tko vodi školu?
+      - ravnatelj OŠ Pazin
+      - kontakt ravnatelja
+
+  - intent: info_broj_ucenika
+    examples: |
+      - koliko učenika ima škola?
+      - broj učenika
+      - koliko djece pohađa školu?
+      - ukupan broj učenika
+      - statistika učenika
+
+  - intent: info_podrucne_skole
+    examples: |
+      - koje područne škole postoje?
+      - popis područnih škola
+      - gdje se nalaze područne škole?
+      - koliko ima područnih škola?
+      - imena područnih škola
+
+  - intent: info_ucenici_s_poteskocama
+    examples: |
+      - koliko učenika ima teškoće u razvoju?
+      - broj učenika s posebnim potrebama
+      - učenici s teškoćama
+      - koliko je asistenata u nastavi?
+      - posebni razredni odjeli
+
+  - intent: info_izborni_predmeti
+    examples: |
+      - koji se izborni predmeti mogu birati?
+      - izborna nastava
+      - što se može izabrati kao izborni predmet?
+      - popis izbornih predmeta
+      - vjeronauk, informatika, talijanski, njemački
+
+  - intent: info_produzeni_boravak
+    examples: |
+      - kako funkcionira produženi boravak?
+      - cijena marende
+      - koliko košta marenda?
+      - produženi boravak
+      - uvjeti za upis u produženi boravak
+
+  - intent: info_adresa_kontakt
+    examples: |
+      - koja je adresa škole?
+      - telefon škole
+      - kako kontaktirati školu?
+      - email škole
+      - gdje se nalazi matična škola?
+
+  - intent: info_kalendar_rada
+    examples: |
+      - kada počinje nastava?
+      - kada završava školska godina?
+      - raspored praznika
+      - kalendar školske godine
+      - početak i kraj nastave 2025./2026.
+
+  - intent: info_vijece_ucenika
+    examples: |
+      - što radi Vijeće učenika?
+      - čime se bavi Vijeće učenika?
+      - predstavnici učenika
+      - uloga Vijeća učenika
+      - kako se bira Vijeće učenika?
+
+  - intent: info_uvjeti_upisa
+    examples: |
+      - koji su uvjeti za upis u prvi razred?
+      - što treba za upis djeteta?
+      - dob za upis
+      - prijevremeni upis
+      - potrebna dokumentacija za upis
+
+  - intent: info_ocjenjivanje
+    examples: |
+      - kako se ocjenjuju učenici?
+      - koje ocjene postoje?
+      - brojčano ocjenjivanje
+      - ocjene iz vladanja
+      - što znači ocjena odličan?
+
+  - intent: info_program_psp
+    examples: |
+      - što je program produženog stručnog postupka?
+      - PSP program
+      - pomoć učenicima s teškoćama
+      - socijalni pedagog
+      - dodatna pomoć u učenju
+
+  - intent: info_glazbeni_odjel
+    examples: |
+      - koji instrumenti se mogu učiti u glazbenom odjelu?
+      - glazbena škola
+      - upis u glazbeni odjel
+      - instrumenti koje nudi škola
+      - klavir, harmonika, violina, gitara, truba, klarinet, udaraljke
+
+  - intent: info_broj_zaposlenika
+    examples: |
+      - koliko zaposlenika ima škola?
+      - broj učitelja
+      - koliko je asistenata?
+      - struktura zaposlenih
+      - koliko radi ljudi u školi?
+
+  - intent: info_gdje_dokumenti
+    examples: |
+      - gdje mogu naći godišnji plan i program?
+      - školski kurikulum
+      - gdje se objavljuju dokumenti škole?
+      - web stranica škole
+      - gdje tražiti informacije o radu škole?

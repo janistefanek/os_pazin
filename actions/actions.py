@@ -14,7 +14,7 @@ class ActionCallLlama(Action):
         user_message = tracker.latest_message.get('text', '')
         
         # Ovdje stavi svoj besplatni API ključ s console.groq.com
-        API_KEY = os.getenv("GROQ_API_KEY")
+        API_KEY = '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'
         
         prompt = f"""Ti si asistent Osnovne škole Pazin (OŠ Pazin). 
         Odgovaraj na hrvatskom jeziku, budi pristojan, kratak i koristan.

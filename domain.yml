@@ -1,11 +1,26 @@
 version: "3.1"
 
-intents:
+ntents:
   - pozdrav
   - info_upisi
   - info_kuhinja
   - lokacija
   - nlu_fallback
+  - info_ravnatelj
+  - info_broj_ucenika
+  - info_podrucne_skole
+  - info_ucenici_s_poteskocama
+  - info_izborni_predmeti
+  - info_produzeni_boravak
+  - info_adresa_kontakt
+  - info_kalendar_rada
+  - info_vijece_ucenika
+  - info_uvjeti_upisa
+  - info_ocjenjivanje
+  - info_program_psp
+  - info_glazbeni_odjel
+  - info_broj_zaposlenika
+  - info_gdje_dokumenti
 
 responses:
   utter_pozdrav:
@@ -16,6 +31,39 @@ responses:
     - text: "Školska kuhinja nudi topli obrok svaki dan. Jelovnik se objavljuje na web stranici škole, a cijena ovisi o broju radnih dana u mjesecu."
   utter_lokacija:
     - text: "Osnovna škola Pazin nalazi se na adresi Šetalište Pazinske gimnazije 9, Pazin."
+
+  # NOVI ODGOVORI
+  utter_ravnatelj:
+    - text: "Ravnatelj škole je Ivan Štefanić, prof. hrvatskog jezika i književnosti te engleskog jezika i književnosti."
+  utter_broj_ucenika:
+    - text: "U školskoj godini 2025./2026. školu pohađa 1289 učenika (648 u razrednoj nastavi i 641 u predmetnoj nastavi). Glazbeni odjel pohađa dodatnih 121 učenik."
+  utter_podrucne_skole:
+    - text: "U sastavu škole djeluje osam područnih škola: Cerovlje, Gračišće, Karojba, Lupoglav, Motovun, Sveti Petar u Šumi, Tinjan i Trviž. Također, u sklopu škole djeluje i Glazbeni odjel Pazin."
+  utter_ucenici_s_poteskocama:
+    - text: "Prema rješenjima o primjerenom obliku školovanja, u školi je 96 učenika s teškoćama u razvoju. Od toga se 11 učenika školuje u dva posebna razredna odjela (PRO), a angažiran je 21 asistent u nastavi."
+  utter_izborni_predmeti:
+    - text: "Učenici mogu birati između četiri izborna predmeta: Katolički vjeronauk, Informatika, Talijanski jezik i Njemački jezik. Za učenike islamske vjeroispovijesti organiziran je i Islamski vjeronauk."
+  utter_produzeni_boravak:
+    - text: "Produženi boravak organiziran je u matičnoj školi i u sedam područnih škola, ukupno 13 grupa s 235 učenika. Cijena marende iznosi 2,00 eura po danu, od čega 1,33 eura pokriva Ministarstvo, a 0,67 eura plaćaju roditelji."
+  utter_adresa_kontakt:
+    - text: "Adresa matične škole je Šetalište Pazinske gimnazije 9, Pazin. Telefonski brojevi su: 624-121, 624-134 i 624-343, a fax: 624-327. E-mail: ured@os-vnazora-pazin.skole.hr."
+  utter_kalendar_rada:
+    - text: "Nastava počinje 8. rujna 2025., a završava 12. lipnja 2026. Prvo polugodište traje do 23. prosinca 2025., a drugo od 12. siječnja 2026. do 12. lipnja 2026."
+  utter_vijece_ucenika:
+    - text: "Vijeće učenika promiče interese učenika, predlaže mjere za poboljšanje njihovih prava, daje sugestije za izlete i ekskurzije, raspravlja o prijedlogu Kućnog reda te može podnositi pritužbe ravnatelju, Učiteljskom vijeću ili Školskom odboru."
+  utter_uvjeti_upisa:
+    - text: "U prvi razred upisuju se djeca koja do 1. travnja tekuće godine imaju navršenih šest godina. Na zahtjev roditelja i uz rješenje nadležnog upravnog tijela može se upisati i dijete koje do 31. ožujka nema šest godina (prijevremeni upis)."
+  utter_ocjenjivanje:
+    - text: "Učenici se ocjenjuju brojčano: odličan (5), vrlo dobar (4), dobar (3), dovoljan (2) i nedovoljan (1). Vladanje se ocjenjuje opisno: uzorno, dobro i loše."
+  utter_program_psp:
+    - text: "Program produženog stručnog postupka (PSP) namijenjen je učenicima s teškoćama i uključuje pomoć u učenju, kreativne radionice te jačanje socijalnih i emocionalnih vještina kroz individualni i grupni rad. Provodi ga socijalni pedagog."
+  utter_glazbeni_odjel:
+    - text: "U Glazbenom odjelu učenici mogu učiti svirati klavir, harmoniku, violinu, klarinet, gitaru, trubu i udaraljke."
+  utter_broj_zaposlenika:
+    - text: "U školi je zaposleno ukupno 250 radnika (uključujući učitelje na zamjeni). Od toga je 44 učitelja razredne nastave, 99 predmetne nastave, 13 učitelja u produženom boravku, 11 u glazbenom odjelu, 21 asistent u nastavi, 9 stručnih suradnika i 57 ostalih radnika."
+  utter_gdje_dokumenti:
+    - text: "Godišnji plan i program te Školski kurikulum objavljuju se na mrežnim stranicama škole (www.os-vnazora-pazin.skole.hr) najkasnije do 15. listopada tekuće školske godine."
+
 
 actions:
   - action_call_llama

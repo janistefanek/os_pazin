@@ -25,3 +25,79 @@ rules:
     steps:
       - intent: nlu_fallback
       - action: action_call_llama
+
+  # NOVA PRAVILA
+  - rule: Informacije o ravnatelju
+    steps:
+      - intent: info_ravnatelj
+      - action: utter_ravnatelj
+
+  - rule: Informacije o broju učenika
+    steps:
+      - intent: info_broj_ucenika
+      - action: utter_broj_ucenika
+
+  - rule: Informacije o područnim školama
+    steps:
+      - intent: info_podrucne_skole
+      - action: utter_podrucne_skole
+
+  - rule: Informacije o učenicima s teškoćama
+    steps:
+      - intent: info_ucenici_s_poteskocama
+      - action: utter_ucenici_s_poteskocama
+
+  - rule: Informacije o izbornim predmetima
+    steps:
+      - intent: info_izborni_predmeti
+      - action: utter_izborni_predmeti
+
+  - rule: Informacije o produženom boravku i marendi
+    steps:
+      - intent: info_produzeni_boravak
+      - action: utter_produzeni_boravak
+
+  - rule: Informacije o adresi i kontaktu
+    steps:
+      - intent: info_adresa_kontakt
+      - action: utter_adresa_kontakt
+
+  - rule: Informacije o kalendaru rada
+    steps:
+      - intent: info_kalendar_rada
+      - action: utter_kalendar_rada
+
+  - rule: Informacije o Vijeću učenika
+    steps:
+      - intent: info_vijece_ucenika
+      - action: utter_vijece_ucenika
+
+  - rule: Informacije o uvjetima upisa
+    steps:
+      - intent: info_uvjeti_upisa
+      - action: utter_uvjeti_upisa
+
+  - rule: Informacije o ocjenjivanju
+    steps:
+      - intent: info_ocjenjivanje
+      - action: utter_ocjenjivanje
+
+  - rule: Informacije o PSP programu
+    steps:
+      - intent: info_program_psp
+      - action: utter_program_psp
+
+  - rule: Informacije o glazbenom odjelu
+    steps:
+      - intent: info_glazbeni_odjel
+      - action: utter_glazbeni_odjel
+
+  - rule: Informacije o broju zaposlenika
+    steps:
+      - intent: info_broj_zaposlenika
+      - action: utter_broj_zaposlenika
+
+  - rule: Informacije o gdje pronaći dokumente
+    steps:
+      - intent: info_gdje_dokumenti
+      - action: utter_gdje_dokumenti

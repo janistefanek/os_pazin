@@ -22,3 +22,94 @@ flows:
     name: lokacija_tok
     steps:
       - action: utter_lokacija
+
+  # NOVI TOKOVI
+  ravnatelj_tok:
+    description: Korisnik pita tko je ravnatelj
+    name: ravnatelj_tok
+    steps:
+      - action: utter_ravnatelj
+
+  broj_ucenika_tok:
+    description: Korisnik pita koliko učenika ima škola
+    name: broj_ucenika_tok
+    steps:
+      - action: utter_broj_ucenika
+
+  podrucne_skole_tok:
+    description: Korisnik pita koje područne škole postoje
+    name: podrucne_skole_tok
+    steps:
+      - action: utter_podrucne_skole
+
+  ucenici_s_poteskocama_tok:
+    description: Korisnik pita o učenicima s teškoćama
+    name: ucenici_s_poteskocama_tok
+    steps:
+      - action: utter_ucenici_s_poteskocama
+
+  izborni_predmeti_tok:
+    description: Korisnik pita o izbornim predmetima
+    name: izborni_predmeti_tok
+    steps:
+      - action: utter_izborni_predmeti
+
+  produzeni_boravak_tok:
+    description: Korisnik pita o produženom boravku i marendi
+    name: produzeni_boravak_tok
+    steps:
+      - action: utter_produzeni_boravak
+
+  adresa_kontakt_tok:
+    description: Korisnik pita adresu i kontakt škole
+    name: adresa_kontakt_tok
+    steps:
+      - action: utter_adresa_kontakt
+
+  kalendar_rada_tok:
+    description: Korisnik pita o kalendaru nastave
+    name: kalendar_rada_tok
+    steps:
+      - action: utter_kalendar_rada
+
+  vijece_ucenika_tok:
+    description: Korisnik pita o Vijeću učenika
+    name: vijece_ucenika_tok
+    steps:
+      - action: utter_vijece_ucenika
+
+  uvjeti_upisa_tok:
+    description: Korisnik pita uvjete za upis u prvi razred
+    name: uvjeti_upisa_tok
+    steps:
+      - action: utter_uvjeti_upisa
+
+  ocjenjivanje_tok:
+    description: Korisnik pita o sustavu ocjenjivanja
+    name: ocjenjivanje_tok
+    steps:
+      - action: utter_ocjenjivanje
+
+  program_psp_tok:
+    description: Korisnik pita o programu produženog stručnog postupka
+    name: program_psp_tok
+    steps:
+      - action: utter_program_psp
+
+  glazbeni_odjel_tok:
+    description: Korisnik pita o instrumentima u glazbenom odjelu
+    name: glazbeni_odjel_tok
+    steps:
+      - action: utter_glazbeni_odjel
+
+  broj_zaposlenika_tok:
+    description: Korisnik pita o broju zaposlenika
+    name: broj_zaposlenika_tok
+    steps:
+      - action: utter_broj_zaposlenika
+
+  gdje_dokumenti_tok:
+    description: Korisnik pita gdje pronaći školske dokumente
+    name: gdje_dokumenti_tok
+    steps:
+      - action: utter_gdje_dokumenti
