@@ -18,7 +18,6 @@ class ActionCallLlama(Action):
         
         user_message = tracker.latest_message.get('text', '').lower()
         
-        # --- 1. KVIZ LOGIKA (Provjerava se prvo) ---
         if "kviz" in user_message:
             kviz_pitanja = [
                 {
@@ -58,7 +57,6 @@ class ActionCallLlama(Action):
             dispatcher.utter_message(text=f"Evo jedna besida: {izbor['text']}", image=izbor['image'])
             return []
 
-        # --- 3. LLM DIO (Samo ako nije ni kviz ni zanimljivost) ---
         else:
             API_KEY = os.getenv("GROQ_API_KEY", "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")
             
@@ -98,9 +96,9 @@ class ActionCallLlama(Action):
                 response.raise_for_status()
                 llama_response = response.json()['choices'][0]['message']['content']
                 
-                # Slike za opće odgovore o školi
+
                 if any(x in llama_response.lower() for x in ["škola", "matična", "pazin"]):
-                    dispatcher.utter_message(text=llama_response, image="https://www.pazin.hr/wp-content/uploads/osnovna_skola.jpg")
+                    dispatcher.utter_message(text=llama_response)
                 else:
                     dispatcher.utter_message(text=llama_response)
 
