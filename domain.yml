@@ -31,7 +31,7 @@ responses:
     - text: "Školska kuhinja nudi topli obrok svaki dan. Jelovnik se objavljuje na web stranici škole, a cijena ovisi o broju radnih dana u mjesecu."
   utter_lokacija:
     - text: "Osnovna škola Pazin nalazi se na adresi Šetalište Pazinske gimnazije 9, Pazin."
-      image: "https://os-vnazora-pazin.skole.hr/images/skola_naslovna.jpg"
+      image: "https://www.pazin.hr/wp-content/uploads/osnovna_skola.jpg"
 
   # NOVI ODGOVORI
   utter_ravnatelj:

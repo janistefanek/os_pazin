@@ -8,6 +8,9 @@ nlu:
       - pozdrav
       - hej
       - dobro jutro
+      - ćao
+      - halo
+      - hej
   
   - intent: info_upisi
     examples: |
@@ -16,6 +19,10 @@ nlu:
       - kada su upisi?
       - koja dokumentacija treba za upis?
       - upis prvašića
+      - želim upisati dijete u prvi razred
+      - postupak upisa u školu
+      - kako se prijaviti za upis?
+      - prijava upisa
   
   - intent: info_kuhinja
     examples: |
@@ -24,6 +31,10 @@ nlu:
       - koliko košta topli obrok?
       - hrana u školi
       - jelovnik za ovaj tjedan
+      - gdje mogu vidjeti jelovnik?
+      - ima li škola kuhinju?
+      - marenda danas
+      - kakva je prehrana
   
   - intent: lokacija
     examples: |
@@ -33,8 +44,10 @@ nlu:
       - koja je adresa škole?
       - kako doći do vas?
       - u kojoj ulici je OŠ Pazin?
+      - pošalji mi lokaciju
+      - gdje ste u pazinu
+      - google maps lokacija
 
-  # NOVI INTENTI - 15 FAQ pitanja
   - intent: info_ravnatelj
     examples: |
       - tko je ravnatelj škole?
@@ -45,6 +58,9 @@ nlu:
       - tko vodi školu?
       - ravnatelj OŠ Pazin
       - kontakt ravnatelja
+      - kako se zove ravnatelj?
+      - ravnateljica ili ravnatelj?
+      - kako mogu kontaktirati ravnatelja?
 
   - intent: info_broj_ucenika
     examples: |
@@ -53,6 +69,10 @@ nlu:
       - koliko djece pohađa školu?
       - ukupan broj učenika
       - statistika učenika
+      - koliko je učenika u razrednoj nastavi?
+      - koliko učenika u predmetnoj nastavi?
+      - broj učenika po razredima
+      - ima li škola puno učenika?
 
   - intent: info_podrucne_skole
     examples: |
@@ -61,6 +81,8 @@ nlu:
       - gdje se nalaze područne škole?
       - koliko ima područnih škola?
       - imena područnih škola
+      - koje sve područne škole pripadaju OŠ Pazin?
+
 
   - intent: info_ucenici_s_poteskocama
     examples: |
@@ -69,6 +91,10 @@ nlu:
       - učenici s teškoćama
       - koliko je asistenata u nastavi?
       - posebni razredni odjeli
+      - kako se pomaže učenicima s teškoćama?
+      - programi za djecu s poteškoćama
+      - individualizirani pristup
+      - prilagodba sadržaja
 
   - intent: info_izborni_predmeti
     examples: |
@@ -77,6 +103,11 @@ nlu:
       - što se može izabrati kao izborni predmet?
       - popis izbornih predmeta
       - vjeronauk, informatika, talijanski, njemački
+      - koje strane jezike mogu učiti?
+      - talijanski kao izborni
+      - njemački jezik u školi
+      - informatika od kojeg razreda?
+      - je li vjeronauk obavezan?
 
   - intent: info_produzeni_boravak
     examples: |
@@ -85,6 +116,9 @@ nlu:
       - koliko košta marenda?
       - produženi boravak
       - uvjeti za upis u produženi boravak
+      - do kada radi produženi boravak?
+      - što djeca rade u produženom boravku?
+      - ima li produženi boravak u svim školama?
 
   - intent: info_adresa_kontakt
     examples: |
@@ -93,6 +127,11 @@ nlu:
       - kako kontaktirati školu?
       - email škole
       - gdje se nalazi matična škola?
+      - broj telefona škole
+      - fax škole
+      - službena mail adresa
+      - e-mail ureda
+      - kontakt tajništva
 
   - intent: info_kalendar_rada
     examples: |
@@ -101,6 +140,11 @@ nlu:
       - raspored praznika
       - kalendar školske godine
       - početak i kraj nastave 2025./2026.
+      - zimski praznici
+      - proljetni praznici
+      - ljetni praznici
+      - kada je prvi dan škole?
+      - kada su uskrsni praznici?
 
   - intent: info_vijece_ucenika
     examples: |
@@ -109,6 +153,10 @@ nlu:
       - predstavnici učenika
       - uloga Vijeća učenika
       - kako se bira Vijeće učenika?
+      - što sve Vijeće učenika predlaže?
+      - ima li škola Vijeće učenika?
+      - kako se učenici mogu uključiti?
+      - prava učenika u školi
 
   - intent: info_uvjeti_upisa
     examples: |
@@ -117,6 +165,9 @@ nlu:
       - dob za upis
       - prijevremeni upis
       - potrebna dokumentacija za upis
+      - može li dijete ranije u školu?
+      - odgoda upisa
+      - testiranje prije upisa
 
   - intent: info_ocjenjivanje
     examples: |
@@ -125,6 +176,10 @@ nlu:
       - brojčano ocjenjivanje
       - ocjene iz vladanja
       - što znači ocjena odličan?
+      - koji su kriteriji za ocjenu?
+      - kako se ocjenjuje vladanje?
+      - što ako dijete dobije nedovoljan?
+      - popravni ispit
 
   - intent: info_program_psp
     examples: |
@@ -133,6 +188,10 @@ nlu:
       - pomoć učenicima s teškoćama
       - socijalni pedagog
       - dodatna pomoć u učenju
+      - tko vodi PSP program?
+      - kreativne radionice za učenike
+      - emocionalne vještine
+      - podrška učenicima s poteškoćama
 
   - intent: info_glazbeni_odjel
     examples: |
@@ -141,6 +200,9 @@ nlu:
       - upis u glazbeni odjel
       - instrumenti koje nudi škola
       - klavir, harmonika, violina, gitara, truba, klarinet, udaraljke
+      - može li se učiti saksofon?
+      - koliko traje glazbena škola?
+      - audicija za upis
 
   - intent: info_broj_zaposlenika
     examples: |
@@ -149,6 +211,10 @@ nlu:
       - koliko je asistenata?
       - struktura zaposlenih
       - koliko radi ljudi u školi?
+      - koliko je učitelja razredne nastave?
+      - koliko predmetnih učitelja?
+      - broj stručnih suradnika
+      - koliko ima kuharica?
 
   - intent: info_gdje_dokumenti
     examples: |
@@ -157,3 +223,7 @@ nlu:
       - gdje se objavljuju dokumenti škole?
       - web stranica škole
       - gdje tražiti informacije o radu škole?
+      - imate li kurikulum online?
+      - godišnji plan rada
+      - statut škole
+      - pravilnici škole
